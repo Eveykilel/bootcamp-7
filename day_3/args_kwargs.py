@@ -34,7 +34,21 @@ print super_sum(10, 20)
 print super_sum(1, 4, 5, 7)
 a = [10, 40, 60]
 print super_sum(*a)
-	def hello_again(**kwargs):
-		return "I'm {}, and I'm {}".format(kwargs['name'], ['age'])
+
+	#args and kwargd
+def hello_again(**kwargs):
+	return "I'm {}, and I'm {}".format(kwargs['name'], ['age'])
+
 print hello_again(name='Joe', age=20)
 print hello_again(age=20, name='Jane')
+other_people = [
+		{'name': 'Joe', 'age': 98},
+		{'name': 'Jone', 'age': 68},
+		{'name': 'Trump', 'age': 39}
+	]
+for person in other_people:
+	print hello_again(**person)
+
+joe = {'name': 'Joe', 'age': 98}
+print hello_again(**joe)
+print hello_again(name='joe', age=98)
