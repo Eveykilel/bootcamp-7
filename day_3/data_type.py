@@ -5,7 +5,7 @@ def data_type(x):
 		- For a float, return x/2
 		- For a string, returns "hello" + x
 		- For a boolean, return "boolean"
-		- For a long, return squareroot (x)
+		- For a long, return string "long"
 	'''
 
 	if type(x) == int:
@@ -17,11 +17,12 @@ def data_type(x):
 	elif type(x) == bool:
 		return ("boolean")
 	elif type(x) == long:
-		return (x ** 0.5)
-
+		return "long"
+	else:
+		return "Invalid Input"
 print data_type(7)		
 print data_type(7.566)
 print data_type("Evey")
 print data_type(True)
 print data_type(2 ** 256)
-	
+print data_type([10, 20, 30])	
