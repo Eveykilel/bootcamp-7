@@ -1,6 +1,6 @@
 from person import Person
 
-class Kenya(Person):
+class Kenyan(Person):
 
 	def probe(self, corrupt):
 		self.corrupt = corrupt
