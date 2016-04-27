@@ -1,8 +1,16 @@
+
+#Global variables not good practise
+people =[
+	('Joe', 78),
+	('Jane', 30),
+	('Brian', 40)
+	]
+
 def super_sum(*args):
 	return sum(args)
 
 def hello_again(name, age):
-	return "I am {} and {} years old".format(name)
+	return "I am {} and {} years old".format(name, age)
 
 def max_min(A):
 	'''
