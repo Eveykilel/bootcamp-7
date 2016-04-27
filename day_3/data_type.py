@@ -13,7 +13,7 @@ def data_type(x):
 	elif type(x) == float:
 		return (x/2)
 	elif type(x) == str:
-		return ("Hello " + x)
+		return "Hello {}".format(x)
 	elif type(x) == bool:
 		return ("boolean")
 	elif type(x) == long:
