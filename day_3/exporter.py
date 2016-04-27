@@ -13,9 +13,9 @@ def hello_again(name, age):
 	return "I am {} and {} years old".format(name, age)
 
 def max_min(A):
-	'''
-	Return max value - min value
-	'''
+
+	#Return max value - min value
+	
 	max_, min_ = A[0], A[0]
 
 	for i in A:
