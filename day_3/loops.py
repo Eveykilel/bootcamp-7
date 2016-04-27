@@ -1,5 +1,5 @@
 a = [10, 40, -9, 40, 60, 89]
-'''
+
 for i in a:
 	print i
 
@@ -18,5 +18,5 @@ for values in b:
 
 x: 2, y: 4
 x: 5, y: 10
-'''
-print "a[-1]: ", a[::-1]
+
+#print "a[-1]: ", a[3:]
