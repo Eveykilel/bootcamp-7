@@ -3,6 +3,7 @@ from kenya import Kenyan
 
 #end of class		
 p = Person('Joe', 23)
+p1 = Person('Joe', 23)
 p2 = Person('Jane', 23)
 p3 = Person('JAcky', 43)
 
@@ -30,7 +31,8 @@ print "Is {} corrupt {}?".format(k.name, k.is_corrupt())
 
 print k.say_hello()
 
-
+print p1.corrupt()
+print k.corrupt()
 
 
 		
